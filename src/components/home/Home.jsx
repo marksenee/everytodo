@@ -14,16 +14,16 @@ function Home() {
   // navigate
   const navigate = useNavigate();
 
-  // const [todoList, setTodoList] = useState([])
+  // const [todoList, setTodoList] = useState([]);
 
   // useEffect(() => {
   //   let data = axios.get("http://localhost:5001/todos").then(response=>
   //   response['data'])
-  //     console.log(data.then((result)=>{
-  //       console.log(result)
+  //     data.then((result)=>{
+  //        console.log(result)
   //       setTodoList(result)
   //     }))
-  // }, []);
+  // }, [todoList]);
 
   // console.log(todoList)
 
